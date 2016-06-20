@@ -1,0 +1,535 @@
+/*!
+ *
+ *  BMW Starter Kit
+ *  Copyright 2016 ACN Inc. All rights reserved.
+ *  
+ *  @Author：9527 @Date: 2016-06-18
+ *  
+ */
+
+html{
+    font-size:62.5%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    background-color: #ffffff;
+}
+*,*:before,*:after{
+    box-sizing:border-box;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+h1,h2,p {
+    margin: 0;
+}
+
+img {
+    border: none;
+}
+
+button{
+    border: none;
+    background: none;
+    padding: 0;
+}
+.clearfix:before, .clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+.YK_play{
+    background: #000;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    clear: both;
+    max-width: 1200px;
+}
+.YK_play .back_play{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/*@media screen and (max-width: 1275px){
+    .YK_play .back_play{
+        width: 100%;
+    }
+}*/
+
+.YK_play .back_play li{
+    float: left;
+    width: 50%;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.YK_play .back_play li img{
+    width: 100%;
+}
+.YK_play .line_play{
+    clear: both;
+    position: relative;
+}
+.YK_play .line_play .line{
+    height:5px;
+    border:none;
+    border-top:5px;
+    width: 100%;
+    color: rgba(255,255,255,0.35);
+    background: rgba(255,255,255,0.35);
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+}
+.YK_play .line_play .shortline{
+    height:5px;
+    border:none;
+    border-top:5px;
+    width: 200px;
+    color: rgb(25,120,214);
+    background: rgb(25,120,214);
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+}
+.YK_play .gray{
+    height:100%;
+    width: 100%;
+    background-color:#262626;
+    position:absolute;
+    opacity:0.7;
+    top:0;
+    left:0;
+    z-index:10;
+}
+.font_play{
+    width: 80%;
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    margin-left: -40%;
+    z-index: 20;
+/*    width: 946px;
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    margin-left:-25%;
+    z-index: 20;*/
+}
+/*@media screen and (max-width: 1275px){
+    .font_play{
+        width: 70%;
+        margin-left:-35%;
+    }
+}*/
+.font_play button{
+    width: 60px;
+    height: 60px;
+    background: rgba(255,255,255,0.2);
+    border:none;
+}
+.font_play .bt_left{
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    margin-top: -30px;
+    left:-10%;
+    font-size: 2.4rem;
+}
+.font_play .bt_right{
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    margin-top: -30px;
+    right:-10%;
+    font-size: 2.4rem;
+}
+.font_play .video_font_play{
+    width: 100%;
+    max-width: 946px;
+}
+.font_play .gray_little{
+    background: rgba(38,38,38,0.3);
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    text-align: center;
+    line-height: 60px;
+}
+.font_play .gray_little p{
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #ffffff;
+}
+/*module1 finished*/
+ /*module2 start*/
+.OW_trainng{
+    margin:0 auto;
+    margin-top: 90px;
+    width: 100%;
+    padding: 0 15px;
+    clear: both;
+    max-width: 1200px;
+    overflow: hidden;
+}
+.OW_trainng .OW_title{
+    height: 35px;
+    line-height: 35px;
+}
+.OW_trainng .ow_tit{
+        clear: both;
+    font-size: 3.5rem;
+    color: #262626;
+    font-weight: bold;
+    float: left;
+}
+
+.OW_trainng .ow_more{
+    float: right;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #666666;
+}
+
+
+.OW_trainng .left_1{
+    float: left;
+    width: 48.7%;
+    position: relative;
+    margin-top: 30px;
+}
+.OW_trainng .left_1 img{
+    width:100%;
+    height: 100%;
+
+}
+
+.OW_trainng .left_1 .controlBar{
+    position: absolute;
+    left: 0;
+    bottom: 2px;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background: rgba(0,0,0,0.4);
+}
+.OW_trainng .left_1 .controlBar button{
+    float: left;
+    margin-left: 20px;
+    font-size: 2.4rem;
+    height: 60px;
+}
+.OW_trainng .left_1 .controlBar p{
+    float: left;
+    margin-left: 15px;
+    font-size: 2.5rem;
+    color: #ffffff;
+}
+.OW_trainng .left_1 .controlBar span{
+    float: right;
+    margin-right: 20px;
+    font-size: 1.6rem;
+    color: #ffffff;
+    height: 60px;
+    line-height: 60px;
+}
+.OW_trainng .right_4{
+    float: right;
+    width: 51.3%;
+    margin-top: 30px;
+}
+.OW_trainng .right_4 li{
+    float: left;
+    width: 45%;
+    margin-left: 5%;
+}
+.OW_trainng .right_4 li .picandsha{
+    position: relative;
+}
+
+.OW_trainng .right_4 li img{
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+
+}
+.OW_trainng .right_4 li .shadow_r4{
+    width: 100%;
+    height: 98.5%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.3);
+    display: block;
+}
+.OW_trainng .right_4 li .shadow_r4 img{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 50%;
+    margin-top: -17.5px;
+    left: 50%;
+    margin-left: -17.5px;
+
+}
+.OW_trainng .right_4 li .shadow_r4 p{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    color: #ffffff;
+    font-size: 1.6rem;
+}
+
+.OW_trainng .right_4 li a{
+    font-size: 1.8rem;
+    color: #666666;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 15px;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.OW_trainng .right_4 li:first-child a{
+    margin-bottom: 30px;
+}
+.OW_trainng .right_4 li:nth-child(2) a{
+    margin-bottom: 30px;
+}
+/*module2 finished*/
+
+ /*module3 start*/
+.CAR_intro{
+    margin:0 auto;
+    margin-top: 90px;
+    width: 100%;
+    padding: 0 15px;
+    clear: both;
+    max-width: 1200px;
+    overflow: hidden;
+}
+.CAR_intro .CAR_title{
+    height: 35px;
+    line-height: 35px;
+}
+.CAR_intro .car_tit{
+        clear: both;
+    font-size: 3.5rem;
+    color: #262626;
+    font-weight: bold;
+    float: left;
+}
+
+.CAR_intro .car_more{
+    float: right;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #666666;
+}
+.CAR_intro .intro8{
+    float: right;
+    width: 100%;
+    margin-top: 30px;
+}
+.CAR_intro .intro8 .intro8_content{
+    margin-top: 45px;
+    display: inline-block;
+    width: 100%;
+}
+.CAR_intro .intro8 li{
+    float: left;
+    width: 23%;
+    margin-left: 2.6%;
+}
+.CAR_intro .intro8 li .picandsha{
+    position: relative;
+}
+
+.CAR_intro .intro8 li img{
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+
+}
+.CAR_intro .intro8 li .shadow_intro{
+    width: 100%;
+    height: 98.5%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.3);
+}
+.CAR_intro .intro8 li .shadow_intro img{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 50%;
+    margin-top: -17.5px;
+    left: 50%;
+    margin-left: -17.5px;
+
+}
+.CAR_intro .intro8 li .shadow_intro p{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    color: #ffffff;
+    font-size: 1.6rem;
+}
+
+.CAR_intro .intro8 li a{
+    font-size: 1.8rem;
+    color: #666666;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 15px;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.CAR_intro .intro8 li:first-child,
+.SA_sercice .intro8 .intro8_content li:first-child{
+    margin-left: 0;
+}
+
+.CAR_intro .intro8 li:nth-child(5){
+    margin-left: 0;
+}
+
+/*module2 finished*/
+
+ /*module3 start*/
+ .SA_sercice{
+    margin-top: 105px;
+ }
+ .SA_sercice .intro8 .intro8_content{
+    width: 100%;
+ }
+.SA_sercice .intro8 li,
+.SA_sercice .intro8 .intro8_content li{
+    width: 32%;
+    margin-left: 2%;
+}
+.SA_sercice .intro8 li .shadow_intro img{
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 50%;
+    margin-top: -22.5px;
+    left: 50%;
+    margin-left: -22.5px;
+}
+/*wide Screen*/
+@media screen and (min-width:980px){
+    .littleSc{
+        display: none;
+    }
+}
+/*littleScreen*/
+@media screen and (max-width:980px){
+    .no_littleScren{
+        display: none;
+    }
+    .font_play{
+        width: 100%;
+        position: static;
+        margin:auto;
+        z-index:normal;
+        margin-left: none;
+    }
+    .YK_play{
+        background: none;
+    }
+    .YK_play .line_play{
+        margin-top: 40px;
+    }
+    .OW_trainng {
+        margin-top: 60px;
+    }
+
+}
+
+.littleSc{
+    margin:0 auto;
+    margin-top: 60px;
+    width: 100%;
+    padding: 0 20px;
+    clear: both;
+    overflow: hidden;
+}
+.littleSc .littleSc_tit{
+    height: 35px;
+    line-height: 35px;
+}
+.littleSc .littlesc_tit{
+    clear: both;
+    font-size: 3.5rem;
+    color: #262626;
+    font-weight: bold;
+    float: left;
+}
+
+.littleSc .littlesc_more{
+    float: right;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #666666;
+}
+.littleSc .littleSc_intro{
+    float: right;
+    width: 100%;
+    margin-top: 30px;
+}
+.littleSc .littleSc_intro .littleSc_intro_content{
+    margin-top: 45px;
+    display: inline-block;
+    width: 100%;
+}
+.littleSc .littleSc_intro li{
+    float: left;
+    width: 49%;
+    margin-left:2%;
+}
+.littleSc .littleSc_intro ul li:first-child{
+    margin-left: 0;
+}
+
+.littleSc .littleSc_intro li img{
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+}
+.littleSc .littleSc_intro li a{
+    font-size: 3rem;
+    color: #666666;
+    display: inline-block;
+    margin-top: 20px;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.littleSc .littleSc_intro li p{
+    font-size: 2rem;
+    color: #bbbbbb;
+    margin-top: 15px;
+}

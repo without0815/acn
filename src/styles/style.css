@@ -1,0 +1,55 @@
+
+@font-face {
+    font-family: 'icom1';
+    src:
+        url('fonts/icom1.ttf?apldt2') format('truetype'),
+        url('fonts/icom1.woff?apldt2') format('woff'),
+        url('fonts/icom1.svg?apldt2#icom1') format('svg');
+    font-weight: normal;
+    font-style: normal; 
+}
+
+[class^="icon-11"], [class*=" icon-11"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icom1' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    color: #ffffff;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-11icon1:before {
+    content: "\e900";
+}
+.icon-11icon2-01:before {
+    content: "\e901";
+}
+.icon-11icon3-01:before {
+    content: "\e902";
+}
+.icon-11icon4-01:before {
+    content: "\e903";
+}
+.icon-11icon5-01:before {
+    content: "\e904";
+}
+.icon-11icon6-01:before {
+    content: "\e905";
+}
+.icon-11icon7-01:before {
+    content: "\e906";
+}
+.icon-11icon8-01:before {
+    content: "\e907";
+}
+.icon-11icon9-01:before {
+    content: "\e908";
+}
+
